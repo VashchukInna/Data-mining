@@ -5,7 +5,7 @@ if __name__ == '__main__':
     print X_train["DESCR"]
     from sklearn.model_selection import train_test_split
 
-    # Split data set to "train" part and part "to predict" also shuffle data set.
+    # split data set to "train" part and part "to predict" also shuffle data set.
     X_train, X_test, y_train, y_test = train_test_split(X_train["data"],
                                                         X_train["target"],
                                                         test_size=0.5)
